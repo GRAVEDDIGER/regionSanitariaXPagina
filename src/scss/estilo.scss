@@ -1,13 +1,16 @@
 @import 'variable';
 @import 'componentes';
 @import 'variables';
+
 @font-face {
     font-family: "gotham";
     src: url("../fuentes/Gotham/Gotham-Book.otf");
 }
-*{
+
+* {
     font-family: "gotham";
 }
+
 @include hamburguesa($fondoPrincipal,
     $colorAcentos,
     $colorSecundario,
@@ -38,28 +41,39 @@
     flex-flow: row nowrap;
 
 }
-.intraForm{
+
+main>article>h4 {
+    color: $colorAcentos;
+    text-decoration: underline;
+}
+
+.intraForm {
     display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-justify-content: center;
-align-items: center;
-width: 100%;
->form{
-    @extend %flex-col;
-    width: 50%;
-    border: $colorSecundario solid 2px;
-    box-shadow: 3px 3px 15px;
-    padding: 15px;
-    >.btn{text-align: center;
-    justify-content: center;}
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    >form {
+        @extend %flex-col;
+        width: 50%;
+        border: $colorSecundario solid 2px;
+        box-shadow: 3px 3px 15px;
+        padding: 15px;
+
+        >.btn {
+            text-align: center;
+            justify-content: center;
+        }
+    }
 }
-}
+
 .grid {
     display: flex;
     float: right;
     grid-template-areas: "menu contenido"
-     "pie pie";
+        "pie pie";
     grid-template-columns: $menuWidth 65vw;
     grid-template-rows: auto 150px;
 }
@@ -321,11 +335,15 @@ footer img {
     .imgCentro {
         width: 50%;
     }
-    main{        width: calc(94vw - #{$menuWidth});
-}
+
+    main {
+        width: calc(94vw - #{$menuWidth});
+    }
+
     .mapas {
         height: calc(100vw / 2.3);
     }
+
     .mapasD {
         width: 100%;
         height: calc(60vw * 2 / 3);
@@ -342,15 +360,20 @@ footer img {
 @include s {
     .grid {
         grid-template-areas: "contenido"
-         "pie";
+            "pie";
         grid-template-columns: 100%;
         grid-template-rows: auto 150px;
 
     }
-    .intraForm{
+
+    .intraForm {
         width: 100%;
-        >form{width: 100%;}
+
+        >form {
+            width: 100%;
+        }
     }
+
     .mapas {
         height: calc(100vw / 1.8);
     }
@@ -371,7 +394,8 @@ footer img {
     aside {
         width: 0;
     }
-    body{
+
+    body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -382,6 +406,7 @@ footer img {
         padding: 0px 15px;
         margin: 0px;
         margin-top: 15px;
+
         .titReg {
             display: none;
         }
@@ -391,6 +416,7 @@ footer img {
         margin: 0;
         padding: 0;
         z-index: 0;
+
         >img {
             margin: 0;
             padding: 0;

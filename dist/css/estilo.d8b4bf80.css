@@ -306,6 +306,11 @@ footer, .cabeza {
   flex-flow: row nowrap;
 }
 
+main > article > h4 {
+  color: #11bfbf;
+  text-decoration: underline;
+}
+
 .intraForm {
   display: flex;
   flex-direction: column;
