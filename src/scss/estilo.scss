@@ -26,7 +26,15 @@
     width: 100%;
 }
 
+@include btne_solid(ile, $ile, 2px);
 @include my(15px);
+
+.ile {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
 
 %btn_txt {
     text-decoration: none;
@@ -200,7 +208,8 @@ h3 {
 .mapas {
     border: $colorSecundario solid 4px;
     width: 100%;
-    height: calc(100vw / 3)
+    height: calc(100vw / 3.5);
+    margin-bottom: 1rem;
 }
 
 .mapacentro {
@@ -214,6 +223,7 @@ h3 {
 
     >.mapas {
         padding-left: 0 !important;
+        margin-bottom: 1rem;
     }
 }
 
@@ -341,7 +351,7 @@ footer img {
     }
 
     .mapas {
-        height: calc(100vw / 2.3);
+        height: calc(100vw / 2.5);
     }
 
     .mapasD {
@@ -375,7 +385,7 @@ footer img {
     }
 
     .mapas {
-        height: calc(100vw / 1.8);
+        height: calc(100vw / 2);
     }
 
     .mapasD {

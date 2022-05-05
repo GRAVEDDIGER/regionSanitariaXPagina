@@ -10,7 +10,8 @@
 00:52:22	Lauti Goncalves:	buenasss
 00:52:26	Fernando Breme:	semana corta, feliz
 00:52:26	Ignacio Iantorno:	bien, en la lucha
-00:53:22	ADRIAN ABADIN:	Yo quisiera entender algo.... Se usa para algo Inline o Block? O ya es todo grids y flex?
+00:53:22	ADRIAN ABADIN:	Yo quisiera entender algo.... 
+Se usa para algo Inline o Block? O ya es todo grids y flex?
 00:53:41	Matias Natale Lepore:	x2
 00:53:55	Joaquin Gasparian Galano:	Este jueves hay clases a pesar del feriado nacional?
 00:53:59	[Tutor] Felipe Blanco Muzzolón:	Espero que amen grids
@@ -27,7 +28,8 @@
 00:59:28	Gastón Sosa:	O sea que pasar los 24 niveles del sapito de flexbox fue en vano? :'(
 00:59:31	Candela Motylski:	Se escucha bien
 00:59:35	Ricardo Falcon:	carlos no se cortra
-00:59:42	carlos gioda:	oka! Gracias
+00:59:42	carlos gioda:	oka! 
+Gracias
 00:59:51	Tahú Zavala Alegría:	es ru conexión amigo carlos
 01:01:11	Luis Acosta:	Buenas!
 01:01:14	Luis Acosta:	Llegando ando
@@ -75,7 +77,7 @@
 01:11:45	Diego Casas:	Así que preparenlo reciclable
 01:11:49	Fernando Breme:	Este curso se podría resumir en una clase de Bootstrap (?
 01:11:50	Martín Hamann:	JAJA
-01:12:00	José González:	jajajajaj  Bootstrap tengo miedo
+01:12:00	José González:	jajajajaj  Bometarap tengo miedo
 01:12:12	[TUTOR] Roger Burbano:	Es fácil
 01:12:21	Fernando Vera:	que es lo de meta charset y eso? siempre me aparece cuando creo uno nuevo y no se para qué es
 01:12:22	[TUTOR] Luciano Villalba:	muy jaja
@@ -626,7 +628,9 @@ header {
 02:51:25	Lautaro Royon:	se suspende por ser jueves?
 02:51:27	Carlos Contreras:	huelga
 02:51:29	John Kevin Montes De Oca:	yo soy de Peru aca todo normal
-02:51:31	Javier Federico Casas:	Gracias profe, gracias tutores.Una genialidad de clase.
+02:51:31	Javier Federico Casas:	Gracias profe, gracias tutores.
+
+Una genialidad de clase.
 02:51:33	Fernando Vera:	ig de la autoritaria?
 02:51:37	Matías Sánchez:	huelga flexbox
 02:51:39	Franco Xavier Dosada:	no se suspende por lluvia tampoco

@@ -3,6 +3,7 @@ $colorSecundario: #dad5d5;
 $colorAcentos: #11bfbf;
 $colorAcento2: #7d7d7d;
 $fondoPrincipal: #FFF;
+$ile:rgb(7, 174, 7);
 $fuente:"Montserrat";
 $fP: (regular:400, medium:500, bold:800);
 $fS:("xxl":32px, "xl":26px, "l":22px, "m":18px, "s":16px);
@@ -122,11 +123,13 @@ $tiempoLargo:1.5s;
         @content;
     }
 }
+
 @mixin xxs {
     @media (max-width:480px) {
         @content;
     }
 }
+
 @function set_color($color) {
     @return transparentize(invert($color), 0.15);
 
